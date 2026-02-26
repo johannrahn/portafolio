@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Johann Rahn Indriago — Backend Developer</title>
+  <meta name="description" content="Junior Backend Developer specializing in Python & Flask. Building robust APIs and web applications." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <span class="nav__logo-bracket">&lt;</span>
+      <span class="nav__logo-name">JRI</span>
+      <span class="nav__logo-bracket">/&gt;</span>
+    </div>
+    <ul class="nav__links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#terminal">terminal</a></li>
+      <li><a href="#contact" class="nav__cta">contact</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__grid-bg"></div>
+    <div class="hero__content">
+      <div class="hero__status">
+        <span class="hero__status-dot"></span>
+        Available for opportunities · Europe / Remote
+      </div>
+      <h1 class="hero__name">Johann Rahn<br /><span class="hero__name-accent">Indriago</span></h1>
+      <p class="hero__title">Junior Backend Developer</p>
+      <p class="hero__stack">Python &nbsp;·&nbsp; Flask &nbsp;·&nbsp; REST APIs &nbsp;·&nbsp; SQL</p>
+      <p class="hero__tagline">I build systems that work — not just pages that look pretty.</p>
+
+      <div class="hero__metrics">
+        <div class="hero__metric">
+          <span class="hero__metric-num" data-target="3">0</span>
+          <span class="hero__metric-label">Projects Shipped</span>
+        </div>
+        <div class="hero__metric">
+          <span class="hero__metric-num" data-target="8">0</span>
+          <span class="hero__metric-label">Technologies</span>
+        </div>
+        <div class="hero__metric">
+          <span class="hero__metric-num" data-target="100">0</span>
+          <span class="hero__metric-label">% Self-Taught</span>
+        </div>
+        <div class="hero__metric">
+          <span class="hero__metric-num" data-target="1">0</span>
+          <span class="hero__metric-label">Real Business Client</span>
+        </div>
+      </div>
+
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero__terminal">
+      <div class="terminal-window">
+        <div class="terminal-window__header">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--yellow"></span>
+          <span class="dot dot--green"></span>
+          <span class="terminal-window__title">developer_profile.py</span>
+        </div>
+        <div class="terminal-window__body" id="heroCode"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">01 / about</span>
+        <h2 class="section__title">System Overview</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__card module-card">
+          <div class="module-card__label">PROCESS</div>
+          <h3>Engineering Mindset</h3>
+          <p>I approach every problem as a system to design — breaking complexity into components, defining inputs/outputs, then building. No guessing, no copy-paste engineering.</p>
+        </div>
+        <div class="about__card module-card">
+          <div class="module-card__label">BACKGROUND</div>
+          <h3>Self-Taught & Driven</h3>
+          <p>Transitioned into development through disciplined self-study. Built real projects — not just tutorials — to validate skills under real constraints.</p>
+        </div>
+        <div class="about__card module-card">
+          <div class="module-card__label">FOCUS</div>
+          <h3>Backend · APIs · Automation</h3>
+          <p>My core interest is server-side logic: designing clean REST APIs, managing data with SQL, and automating workflows. Frontend is a tool I use when I need to.</p>
+        </div>
+        <div class="about__card module-card">
+          <div class="module-card__label">TARGET</div>
+          <h3>First Backend Role · Germany/EU</h3>
+          <p>Actively seeking a junior backend position in Europe. I bring technical discipline, fast learning, and the ability to work independently from day one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">02 / skills</span>
+        <h2 class="section__title">Tech Stack</h2>
+      </div>
+      <div class="skills__grid">
+
+        <div class="skills__category">
+          <h3 class="skills__cat-title"><span class="skills__cat-icon">⬡</span> Backend</h3>
+          <div class="skill-bar" data-skill="Python" data-level="85">
+            <div class="skill-bar__info"><span>Python</span><span class="skill-bar__pct">85%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-bar" data-skill="Flask" data-level="80">
+            <div class="skill-bar__info"><span>Flask</span><span class="skill-bar__pct">80%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-bar" data-skill="REST APIs" data-level="78">
+            <div class="skill-bar__info"><span>REST APIs</span><span class="skill-bar__pct">78%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="78"></div></div>
+          </div>
+          <div class="skill-bar" data-skill="SQL / SQLite" data-level="72">
+            <div class="skill-bar__info"><span>SQL / SQLite</span><span class="skill-bar__pct">72%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="72"></div></div>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h3 class="skills__cat-title"><span class="skills__cat-icon">◈</span> Frontend</h3>
+          <div class="skill-bar" data-skill="HTML/CSS" data-level="80">
+            <div class="skill-bar__info"><span>HTML / CSS</span><span class="skill-bar__pct">80%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="80"></div></div>
+          </div>
+          <div class="skill-bar" data-skill="JavaScript" data-level="65">
+            <div class="skill-bar__info"><span>JavaScript</span><span class="skill-bar__pct">65%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="65"></div></div>
+          </div>
+          <div class="skill-bar" data-skill="Bootstrap" data-level="70">
+            <div class="skill-bar__info"><span>Bootstrap</span><span class="skill-bar__pct">70%</span></div>
+            <div class="skill-bar__track"><div class="skill-bar__fill" data-width="70"></div></div>
+          </div>
+        </div>
+
+        <div class="skills__category">
+          <h3 class="skills__cat-title"><span class="skills__cat-icon">⬟</span> Tools & Infra</h3>
+          <div class="skills__badges">
+            <span class="badge">Git</span>
+            <span class="badge">GitHub</span>
+            <span class="badge">Linux</span>
+            <span class="badge">Netlify</span>
+            <span class="badge">VS Code</span>
+            <span class="badge">Postman</span>
+            <span class="badge">SQLite</span>
+            <span class="badge">Jinja2</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">03 / projects</span>
+        <h2 class="section__title">Deployed Modules</h2>
+      </div>
+      <div class="projects__grid">
+
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__id">MODULE_01</span>
+            <div class="project-card__status status--live">● LIVE</div>
+          </div>
+          <h3 class="project-card__title">Client Management System</h3>
+          <p class="project-card__problem"><span>PROBLEM:</span> Manual client tracking was error-prone and unscalable.</p>
+          <p class="project-card__desc">Full-stack CRUD web application with user authentication, session management, and a relational database. Built for real operational use — not just as a demo.</p>
+          <div class="project-card__stack">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">SQLite</span>
+            <span class="tag">Jinja2</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Auth</span>
+          </div>
+          <ul class="project-card__features">
+            <li>Secure login & session management</li>
+            <li>Full CRUD operations on client records</li>
+            <li>Relational DB with SQLAlchemy ORM</li>
+            <li>Role-based access control</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/johannrahn" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">GitHub →</a>
+            <a href="#" class="btn btn--sm btn--primary">Demo →</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card project-card--featured">
+          <div class="project-card__header">
+            <span class="project-card__id">MODULE_02</span>
+            <div class="project-card__status status--live">● LIVE</div>
+          </div>
+          <div class="project-card__badge">Real Client</div>
+          <h3 class="project-card__title">Insurance Agency Website</h3>
+          <p class="project-card__problem"><span>PROBLEM:</span> A real business had zero online presence and was losing leads.</p>
+          <p class="project-card__desc">Production website for an actual insurance agency. Converted business requirements into a functional, deployed product with lead capture and responsive design.</p>
+          <div class="project-card__stack">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Netlify</span>
+          </div>
+          <ul class="project-card__features">
+            <li>Deployed to production on Netlify</li>
+            <li>Real business client, real requirements</li>
+            <li>Mobile-first responsive design</li>
+            <li>Lead capture contact form</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/johannrahn" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">GitHub →</a>
+            <a href="#" class="btn btn--sm btn--primary">Live Site →</a>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="project-card__header">
+            <span class="project-card__id">MODULE_03</span>
+            <div class="project-card__status status--live">● LIVE</div>
+          </div>
+          <h3 class="project-card__title">Pokédex API Web App</h3>
+          <p class="project-card__problem"><span>PROBLEM:</span> Needed to demonstrate real external API integration and async data handling.</p>
+          <p class="project-card__desc">Web application that consumes the PokéAPI REST endpoint. Demonstrates HTTP request handling, JSON parsing, dynamic rendering, and error states.</p>
+          <div class="project-card__stack">
+            <span class="tag">Python</span>
+            <span class="tag">Flask</span>
+            <span class="tag">REST API</span>
+            <span class="tag">JSON</span>
+            <span class="tag">JavaScript</span>
+          </div>
+          <ul class="project-card__features">
+            <li>External REST API consumption</li>
+            <li>Dynamic search & filtering</li>
+            <li>JSON data parsing & rendering</li>
+            <li>Graceful error handling</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/johannrahn" target="_blank" rel="noopener" class="btn btn--sm btn--ghost">GitHub →</a>
+            <a href="#" class="btn btn--sm btn--primary">Demo →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE TERMINAL -->
+  <section class="terminal-section section" id="terminal">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">04 / interactive</span>
+        <h2 class="section__title">API Simulator</h2>
+        <p class="section__sub">Test a simulated REST API. This is how I think about backend systems.</p>
+      </div>
+      <div class="api-sim">
+        <div class="api-sim__panel">
+          <h4>Send Request</h4>
+          <div class="api-sim__controls">
+            <select class="api-sim__method" id="apiMethod">
+              <option>GET</option>
+              <option>POST</option>
+              <option>PUT</option>
+              <option>DELETE</option>
+            </select>
+            <select class="api-sim__endpoint" id="apiEndpoint">
+              <option value="profile">/api/profile</option>
+              <option value="skills">/api/skills</option>
+              <option value="projects">/api/projects</option>
+              <option value="status">/api/status</option>
+            </select>
+            <button class="btn btn--primary" id="sendRequest">Send →</button>
+          </div>
+          <div class="api-sim__status" id="apiStatus"></div>
+        </div>
+        <div class="api-sim__response">
+          <div class="terminal-window">
+            <div class="terminal-window__header">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+              <span class="terminal-window__title">response.json</span>
+            </div>
+            <pre class="terminal-window__body" id="apiResponse"><span class="json-comment">// Click "Send →" to fire a request</span></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__tag">05 / contact</span>
+        <h2 class="section__title">Let's Work Together</h2>
+        <p class="section__sub">Open to junior backend roles in Germany & Europe. Let's talk.</p>
+      </div>
+      <div class="contact__grid">
+        <a href="mailto:johannrahn@email.com" class="contact-card">
+          <span class="contact-card__icon">✉</span>
+          <span class="contact-card__label">Email</span>
+          <span class="contact-card__value">johannrahn@email.com</span>
+        </a>
+        <a href="https://linkedin.com/in/johannrahn" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-card__icon">in</span>
+          <span class="contact-card__label">LinkedIn</span>
+          <span class="contact-card__value">linkedin.com/in/johannrahn</span>
+        </a>
+        <a href="https://github.com/johannrahn" target="_blank" rel="noopener" class="contact-card">
+          <span class="contact-card__icon">⌥</span>
+          <span class="contact-card__label">GitHub</span>
+          <span class="contact-card__value">github.com/johannrahn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__text">
+        <span class="footer__bracket">&lt;</span> Built by Johann Rahn Indriago <span class="footer__bracket">/&gt;</span>
+      </p>
+      <p class="footer__sub">Python · Flask · HTML · CSS · JS — Deployed on Netlify</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
