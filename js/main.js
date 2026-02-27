@@ -72,15 +72,15 @@ const heroCodeLines = [
   { text: '',                                                                                   delay: 80 },
   { text: '    <span class="t-fn">def</span> <span class="t-cls">__init__</span>(self):',       delay: 160 },
   { text: '        self.name = <span class="t-str">"Johann Rahn Indriago"</span>',              delay: 280 },
-  { text: '        self.role = <span class="t-str">"Junior Backend Developer"</span>',          delay: 400 },
+  { text: '        self.role = <span class="t-str">"Full Stack Developer"</span>',          delay: 400 },
   { text: '        self.stack = [<span class="t-str">"Python"</span>, <span class="t-str">"Flask"</span>, <span class="t-str">"SQL"</span>]', delay: 520 },
   { text: '        self.open_to_work = <span class="t-num">True</span>',                        delay: 640 },
   { text: '',                                                                                   delay: 720 },
   { text: '    <span class="t-fn">def</span> <span class="t-cls">get_status</span>(self):',     delay: 800 },
   { text: '        <span class="t-kw">return</span> {',                                         delay: 900 },
-  { text: '            <span class="t-str">"location"</span>: <span class="t-str">"Venezuela → EU"</span>,', delay: 1000 },
-  { text: '            <span class="t-str">"focus"</span>: <span class="t-str">"Backend · APIs"</span>,',    delay: 1100 },
-  { text: '            <span class="t-str">"status"</span>: <span class="t-str">"Actively hiring"</span>',   delay: 1200 },
+  { text: '            <span class="t-str">"location"</span>: <span class="t-str">"Berlin, Germany"</span>,', delay: 1000 },
+  { text: '            <span class="t-str">"focus"</span>: <span class="t-str">"Full Stack · APIs"</span>,',    delay: 1100 },
+  { text: '            <span class="t-str">"status"</span>: <span class="t-str">"Open to work"</span>',      delay: 1200 },
   { text: '        }',                                                                          delay: 1300 },
 ];
 
@@ -100,11 +100,11 @@ const apiData = {
   profile: {
     id: 1,
     name: "Johann Rahn Indriago",
-    role: "Junior Backend Developer",
+    role: "Full Stack Developer",
     stack: ["Python", "Flask", "REST APIs", "SQL", "Git"],
-    location: "Venezuela → Europe",
+    location: "Berlin, Germany",
     open_to_work: true,
-    languages: ["Spanish (native)", "English (B2+)"]
+    languages: ["Spanish (native)", "English (professional)", "German (B1)", "Portuguese (A1)"]
   },
   skills: {
     backend: { Python: 85, Flask: 80, REST_APIs: 78, SQL: 72 },
@@ -112,14 +112,13 @@ const apiData = {
     tools: ["Git", "GitHub", "Linux", "Netlify", "Postman"]
   },
   projects: [
-    { id: 1, name: "Client Management System", stack: ["Flask","SQLite","Auth"], status: "live" },
-    { id: 2, name: "Insurance Agency Website", stack: ["HTML","CSS","JS","Netlify"], status: "live", client: true },
-    { id: 3, name: "Pokédex API App",          stack: ["Flask","REST API","JSON"], status: "live" }
+    { id: 1, name: "Insurance Agency Website", stack: ["HTML","CSS","JS","Netlify"], status: "live", client: true, url: "https://jade-insurance.com" },
+    { id: 2, name: "Pokedex API App",          stack: ["Flask","REST API","JSON"], status: "live", url: "https://pokedex-1-cggu.onrender.com/" }
   ],
   status: {
     available: true,
-    target_roles: ["Junior Backend Developer", "Python Developer"],
-    target_countries: ["Germany", "Netherlands", "Spain", "Remote"],
+    target_roles: ["Full Stack Developer", "Python Developer"],
+    target_countries: ["Germany", "Europe", "Remote"],
     response_time: "< 24h"
   }
 };
