@@ -73,13 +73,13 @@ const heroCodeLines = [
   { text: '    <span class="t-fn">def</span> <span class="t-cls">__init__</span>(self):',       delay: 160 },
   { text: '        self.name = <span class="t-str">"Johann Rahn Indriago"</span>',              delay: 280 },
   { text: '        self.role = <span class="t-str">"Full Stack Developer"</span>',          delay: 400 },
-  { text: '        self.stack = [<span class="t-str">"Python"</span>, <span class="t-str">"Flask"</span>, <span class="t-str">"SQL"</span>]', delay: 520 },
+  { text: '        self.stack = [<span class="t-str">"Python"</span>, <span class="t-str">"FastAPI"</span>, <span class="t-str">"React"</span>, <span class="t-str">"TS"</span>]', delay: 520 },
   { text: '        self.open_to_work = <span class="t-num">True</span>',                        delay: 640 },
   { text: '',                                                                                   delay: 720 },
   { text: '    <span class="t-fn">def</span> <span class="t-cls">get_status</span>(self):',     delay: 800 },
   { text: '        <span class="t-kw">return</span> {',                                         delay: 900 },
   { text: '            <span class="t-str">"location"</span>: <span class="t-str">"Berlin, Germany"</span>,', delay: 1000 },
-  { text: '            <span class="t-str">"focus"</span>: <span class="t-str">"Full Stack · APIs"</span>,',    delay: 1100 },
+  { text: '            <span class="t-str">"focus"</span>: <span class="t-str">"Full Stack · APIs · Systems"</span>,',    delay: 1100 },
   { text: '            <span class="t-str">"status"</span>: <span class="t-str">"Open to work"</span>',      delay: 1200 },
   { text: '        }',                                                                          delay: 1300 },
 ];
@@ -101,23 +101,24 @@ const apiData = {
     id: 1,
     name: "Johann Rahn Indriago",
     role: "Full Stack Developer",
-    stack: ["Python", "Flask", "REST APIs", "SQL", "Git"],
+    stack: ["Python", "FastAPI", "React", "TypeScript", "PostgreSQL"],
     location: "Berlin, Germany",
     open_to_work: true,
     languages: ["Spanish (native)", "English (professional)", "German (B1)", "Portuguese (A1)"]
   },
   skills: {
-    backend: { Python: 85, Flask: 80, REST_APIs: 78, SQL: 72 },
-    frontend: { HTML_CSS: 80, JavaScript: 65, Bootstrap: 70 },
-    tools: ["Git", "GitHub", "Linux", "Netlify", "Postman"]
+    backend: { Python: 90, FastAPI: 82, Flask: 80, REST_APIs: 85, PostgreSQL: 78, SQLAlchemy: 75 },
+    frontend: { React: 78, TypeScript: 75, HTML_CSS: 82, Tailwind: 75, JavaScript: 72 },
+    tools: ["Git", "GitHub", "Docker", "Linux", "Pytest", "Vercel", "Netlify", "Postman", "Vite"]
   },
   projects: [
     { id: 1, name: "Insurance Agency Website", stack: ["HTML","CSS","JS","Netlify"], status: "live", client: true, url: "https://jade-insurance.com" },
-    { id: 2, name: "Pokedex API App",          stack: ["Flask","REST API","JSON"], status: "live", url: "https://pokedex-1-cggu.onrender.com/" }
+    { id: 2, name: "Pokedex API App",          stack: ["Flask","REST API","JSON"], status: "live", url: "https://pokedex-1-cggu.onrender.com/" },
+    { id: 3, name: "E-Commerce Platform",      stack: ["FastAPI","React","TypeScript","PostgreSQL","Docker"], status: "live", tests: 205, url: "https://ecommerceplatform-eight.vercel.app/" }
   ],
   status: {
     available: true,
-    target_roles: ["Full Stack Developer", "Python Developer"],
+    target_roles: ["Full Stack Developer", "Python Developer", "Backend Developer"],
     target_countries: ["Germany", "Europe", "Remote"],
     response_time: "< 24h"
   }
