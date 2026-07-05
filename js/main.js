@@ -104,7 +104,7 @@ const apiData = {
     stack: ["Python", "FastAPI", "React", "TypeScript", "PostgreSQL"],
     location: "Berlin, Germany",
     open_to_work: true,
-    languages: ["Spanish (native)", "English (professional)", "German (B1)", "Portuguese (A1)"]
+    languages: ["Spanish (native)", "English (professional)", "German (B2)", "Portuguese (A1)"]
   },
   skills: {
     backend: { Python: 90, FastAPI: 82, Flask: 80, REST_APIs: 85, PostgreSQL: 78, SQLAlchemy: 75 },
@@ -114,7 +114,8 @@ const apiData = {
   projects: [
     { id: 1, name: "Insurance Agency Website", stack: ["HTML","CSS","JS","Netlify"], status: "live", client: true, url: "https://jade-insurance.com" },
     { id: 2, name: "Pokedex API App",          stack: ["Flask","REST API","JSON"], status: "live", url: "https://pokedex-1-cggu.onrender.com/" },
-    { id: 3, name: "E-Commerce Platform",      stack: ["FastAPI","React","TypeScript","PostgreSQL","Docker"], status: "live", tests: 205, url: "https://ecommerceplatform-eight.vercel.app/" }
+    { id: 3, name: "E-Commerce Platform",      stack: ["FastAPI","React","TypeScript","PostgreSQL","Docker"], status: "live", tests: 205, url: "https://ecommerceplatform-eight.vercel.app/" },
+    { id: 4, name: "HED Trading Academy",      stack: ["Astro","TypeScript","Stripe","Netlify"], status: "live", client: true, url: "https://glistening-seahorse-b70f66.netlify.app" }
   ],
   status: {
     available: true,
