@@ -113,9 +113,8 @@ const apiData = {
   },
   projects: [
     { id: 1, name: "Insurance Agency Website", stack: ["HTML","CSS","JS","Netlify"], status: "live", client: true, url: "https://jade-insurance.com" },
-    { id: 2, name: "Pokedex API App",          stack: ["Flask","REST API","JSON"], status: "live", url: "https://pokedex-1-cggu.onrender.com/" },
-    { id: 3, name: "E-Commerce Platform",      stack: ["FastAPI","React","TypeScript","PostgreSQL","Docker"], status: "live", tests: 205, url: "https://ecommerceplatform-eight.vercel.app/" },
-    { id: 4, name: "HED Trading Academy",      stack: ["Astro","TypeScript","Stripe","Netlify"], status: "live", client: true, url: "https://glistening-seahorse-b70f66.netlify.app" }
+    { id: 2, name: "E-Commerce Platform",      stack: ["FastAPI","React","TypeScript","PostgreSQL","Docker"], status: "live", tests: 205, url: "https://ecommerceplatform-eight.vercel.app/" },
+    { id: 3, name: "HED Trading Academy",      stack: ["Astro","TypeScript","Stripe","Netlify"], status: "live", client: true, url: "https://glistening-seahorse-b70f66.netlify.app" }
   ],
   status: {
     available: true,
